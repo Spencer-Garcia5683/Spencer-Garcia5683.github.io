@@ -576,6 +576,13 @@ main {
   border-bottom: none;
 }
 
+.contact-panel .contact-list,
+.contact-panel .contact-list li,
+.contact-panel .contact-list strong,
+.contact-panel .contact-list span {
+  color: #ffffff !important;
+}
+
 /* Ensure high-contrast, readable links inside the contact panel */
 .panel-contrast.contact-panel a,
 .contact-panel a {
