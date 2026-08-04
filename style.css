@@ -576,6 +576,19 @@ main {
   border-bottom: none;
 }
 
+/* Ensure high-contrast, readable links inside the contact panel */
+.panel-contrast.contact-panel a,
+.contact-panel a {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-panel a:hover,
+.panel-contrast.contact-panel a:hover {
+  text-decoration: underline;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
