@@ -492,6 +492,24 @@ main {
   gap: 0.95rem;
 }
 
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+
+.cert-thumb {
+  display: block;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(37, 21, 12, 0.06);
+}
+
+.cert-thumb img { display:block; width:100%; height:auto; }
+
 .resume-top {
   align-items: stretch;
 }
