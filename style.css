@@ -296,6 +296,32 @@ main {
   text-decoration: underline;
 }
 
+/* Improve link contrast for contact panel and footer */
+.panel-contrast a,
+.contact-panel a {
+  color: #fff7f0;
+  font-weight: 700;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 20px 8px 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-footer a {
+  color: var(--accent-deep);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
 .stats-band {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
