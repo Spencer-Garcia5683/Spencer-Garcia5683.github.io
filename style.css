@@ -589,6 +589,18 @@ main {
   text-decoration: underline;
 }
 
+/* Force all link states inside the contact panel to white for maximum contrast */
+.panel.panel-contrast.contact-panel a:link,
+.panel.panel-contrast.contact-panel a:visited,
+.panel.panel-contrast.contact-panel a:hover,
+.panel.panel-contrast.contact-panel a:active,
+.contact-panel a:link,
+.contact-panel a:visited,
+.contact-panel a:hover,
+.contact-panel a:active {
+  color: #ffffff !important;
+}
+
 
 .site-footer {
   display: flex;
