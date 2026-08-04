@@ -580,7 +580,7 @@ main {
 .panel-contrast.contact-panel a,
 .contact-panel a {
   color: #ffffff !important;
-  font-weight: 700;
+  font-weight: 400 !important;
   text-decoration: none;
 }
 
@@ -599,6 +599,11 @@ main {
 .contact-panel a:hover,
 .contact-panel a:active {
   color: #ffffff !important;
+}
+
+/* Ensure contact list values are left-aligned in the second column */
+.contact-list li > span {
+  justify-self: start;
 }
 
 
