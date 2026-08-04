@@ -579,7 +579,7 @@ main {
 /* Ensure high-contrast, readable links inside the contact panel */
 .panel-contrast.contact-panel a,
 .contact-panel a {
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 700;
   text-decoration: none;
 }
@@ -589,10 +589,6 @@ main {
   text-decoration: underline;
 }
 
-/* Force links on the contact page to be white for readability */
-.contact-layout a {
-  color: #ffffff !important;
-}
 
 .site-footer {
   display: flex;
