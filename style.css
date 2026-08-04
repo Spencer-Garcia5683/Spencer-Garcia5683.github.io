@@ -589,6 +589,11 @@ main {
   text-decoration: underline;
 }
 
+/* Force links on the contact page to be white for readability */
+.contact-layout a {
+  color: #ffffff !important;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
