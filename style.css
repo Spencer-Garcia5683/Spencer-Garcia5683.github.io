@@ -708,3 +708,12 @@ main {
     flex-direction: column;
   }
 }
+
+/* Force-clear the stats band numbers if any other rule is dimming them */
+.stats-band article > .stat-value,
+.stats-band article .stat-value {
+  color: var(--accent-deep) !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  font-weight: 800;
+}
