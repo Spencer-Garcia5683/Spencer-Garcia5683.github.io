@@ -213,6 +213,19 @@ main {
   color: var(--muted);
 }
 
+/* Ensure lists are readable on dark/accent panels (force light text) */
+.hero-card .hero-points,
+.hero-card .detail-list,
+.hero-card .contact-list,
+.panel-contrast .hero-points,
+.panel-contrast .detail-list,
+.panel-contrast .contact-list,
+.accent-card .hero-points,
+.accent-card .detail-list,
+.accent-card .contact-list {
+  color: var(--surface-strong) !important;
+}
+
 .hero-points li,
 .detail-list li {
   margin-bottom: 0.55rem;
