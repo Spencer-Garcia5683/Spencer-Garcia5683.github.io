@@ -213,17 +213,22 @@ main {
   color: var(--muted);
 }
 
-/* Ensure lists are readable on dark/accent panels (force light text) */
-.hero-card .hero-points,
-.hero-card .detail-list,
-.hero-card .contact-list,
-.panel-contrast .hero-points,
-.panel-contrast .detail-list,
-.panel-contrast .contact-list,
-.accent-card .hero-points,
-.accent-card .detail-list,
-.accent-card .contact-list {
+/* Ensure lists are readable on dark/accent panels (apply to list items only) */
+.hero-card .hero-points li,
+.hero-card .detail-list li,
+.hero-card .contact-list li,
+.panel-contrast .hero-points li,
+.panel-contrast .detail-list li,
+.panel-contrast .contact-list li,
+.accent-card .hero-points li,
+.accent-card .detail-list li,
+.accent-card .contact-list li {
   color: var(--surface-strong) !important;
+}
+
+/* Restore accent numbers in the stats band if they were overridden */
+.stats-band .stat-value {
+  color: var(--accent-deep) !important;
 }
 
 .hero-points li,
