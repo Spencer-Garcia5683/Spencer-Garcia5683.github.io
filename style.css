@@ -516,7 +516,7 @@ main {
 
 .project-meta {
   margin: 0.35rem 0 0.85rem;
-  color: var(--surface-strong);
+  color: var(--accent-deep);
   font-weight: 800;
 }
 
