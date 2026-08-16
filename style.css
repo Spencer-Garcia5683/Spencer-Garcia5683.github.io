@@ -326,7 +326,7 @@ main {
 }
 
 .site-footer a {
-  color: var(--surface-strong);
+  color: var(--accent-deep);
   font-weight: 700;
   text-decoration: none;
 }
@@ -353,7 +353,7 @@ main {
 .stat-value {
   font-family: 'Fraunces', serif;
   font-size: clamp(2rem, 4vw, 3.4rem);
-  color: var(--surface-strong);
+  color: var(--accent-deep);
 }
 
 .stat-label {
